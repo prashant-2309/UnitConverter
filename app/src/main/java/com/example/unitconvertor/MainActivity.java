@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, weight_cal.class));
-            }
+            }1
         });
 
         speed.setOnClickListener(new View.OnClickListener() {
